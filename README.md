@@ -39,3 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -> react-icons 
 -> react-hook-form
 -> clsx
+-> @tailwindcss/forms
