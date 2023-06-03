@@ -76,10 +76,10 @@ const AuthForm = () => {
                     onSubmit={handleSubmit(onSubmit)}
                 >
                     {variant === 'REGISTER' && (
-                        <Input id="name" label="Name" register={register} errors={errors} />
+                        <Input id="name" label="Name" register={register} errors={errors} disabled={isLoading} />
                     )}
-                    <Input id="email" label="Email address" type="email" register={register} errors={errors} />
-                    <Input id="password" label="Password" type="password" register={register} errors={errors} />
+                    <Input id="email" label="Email address" type="email" register={register} errors={errors} disabled={isLoading} />
+                    <Input id="password" label="Password" type="password" register={register} errors={errors} disabled={isLoading} />
 
                     <div>
                         <Button
@@ -126,8 +126,32 @@ const AuthForm = () => {
                         <AuthSocialButton icon={BsGithub} onClick={() => socialAction('github')} />
                         <AuthSocialButton icon={BsGoogle} onClick={() => socialAction('google')} />
                     </div>
-
                 </div>
+
+
+                <div className="
+                    flex
+                    gap-2
+                    justify-center
+                    text-sm
+                    mt-6
+                    px-2
+                    text-gray-500
+
+                ">
+                    <div>
+                        {variant === 'LOGIN' ? "New to Messenger?" : "Already have an account?"}
+                    </div>
+                    <div
+                        onClick={toggleVariant}
+                        className="
+                            underline
+                            cursor-pointer"
+                    >
+                        {variant === 'LOGIN' ? "Create an account" : "Log in"}
+                    </div>
+                </div>
+
             </div>
         </div>
     )
