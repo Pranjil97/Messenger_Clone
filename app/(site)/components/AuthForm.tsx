@@ -76,7 +76,7 @@ const AuthForm = () => {
                     onSubmit={handleSubmit(onSubmit)}
                 >
                     {variant === 'REGISTER' && (
-                        <Input id="name" label="Name" register={register} errors={errors} disabled={isLoading} />
+                        <Input id="name" label="Name" type="text" register={register} errors={errors} disabled={isLoading} />
                     )}
                     <Input id="email" label="Email address" type="email" register={register} errors={errors} disabled={isLoading} />
                     <Input id="password" label="Password" type="password" register={register} errors={errors} disabled={isLoading} />
@@ -127,7 +127,6 @@ const AuthForm = () => {
                         <AuthSocialButton icon={BsGoogle} onClick={() => socialAction('google')} />
                     </div>
                 </div>
-
 
                 <div className="
                     flex
