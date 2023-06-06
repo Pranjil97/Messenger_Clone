@@ -43,3 +43,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -> prisma (after installed run command "npx prisma init")
 -> next-auth@latest @prisma/client @next-auth/prisma-adapter bcrypt
 -> -D @types/bcrypt
+-> axios
