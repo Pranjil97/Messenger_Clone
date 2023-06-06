@@ -35,9 +35,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-## package installed 
+## package installed ( npm install ) 
 -> react-icons 
 -> react-hook-form
 -> clsx
 -> @tailwindcss/forms
 -> prisma (after installed run command "npx prisma init")
+-> next-auth@latest @prisma/client @next-auth/prisma-adapter bcrypt
+-> -D @types/bcrypt
