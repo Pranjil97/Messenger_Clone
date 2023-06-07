@@ -44,3 +44,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -> next-auth@latest @prisma/client @next-auth/prisma-adapter bcrypt
 -> -D @types/bcrypt
 -> axios
+-> react-hot-toast
