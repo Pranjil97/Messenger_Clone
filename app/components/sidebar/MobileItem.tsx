@@ -6,8 +6,8 @@ import Link from "next/link";
 interface MobileItemProps {
     href: string;
     icon: any;
-    active: boolean;
-    onClick: () => void;
+    active?: boolean;
+    onClick?: () => void;
 }
 
 const MobileItem: React.FC<MobileItemProps> = ({
@@ -18,7 +18,7 @@ const MobileItem: React.FC<MobileItemProps> = ({
 }) => {
 
     const handleClick = () => {
-        if (onclick) {
+        if (onClick) {
             return onClick();
         }
     };
