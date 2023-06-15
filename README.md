@@ -47,3 +47,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -> react-hot-toast
 -> react-icons
 -> next-superjson-pluging
+-> date-fns
