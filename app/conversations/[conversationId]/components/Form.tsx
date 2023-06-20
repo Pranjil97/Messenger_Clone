@@ -23,12 +23,17 @@ const Form = () => {
         }
     });
 
-    const onsSubmit: SubmitHandler<FieldValues> = (data) => {
+    const onSubmit: SubmitHandler<FieldValues> = async (data) => {
         setValue('message', '', { shouldValidate: true });
-        axios.post('/api/messages', {
-            ...data,
-            conversationId
-        })
+        console.log(data, conversationId, "data from form.tsx")
+        try {
+            await axios.post('/api/messages', {
+                ...data,
+                conversationId
+            })
+        } catch (error: any) {
+            console.log(error);
+        }
     };
 
     return (
@@ -47,7 +52,7 @@ const Form = () => {
         >
             <HiPhoto size={30} className="text-sky-500" />
             <form
-                onSubmit={handleSubmit(onsSubmit)}
+                onSubmit={handleSubmit(onSubmit)}
                 className="flex flex-center gap-2 lg:gap-4 w-full"
             >
                 <MessageInput

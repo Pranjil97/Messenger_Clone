@@ -1,4 +1,4 @@
-import prisma from "../../app/libs/prismadb";
+import prisma from "../libs/prismadb";
 import getSession from "./getSession";
 
 const getCurrentUser = async () => {
@@ -18,7 +18,7 @@ const getCurrentUser = async () => {
         if(!currentUser){
             return null;
         }
-
+        // console.log(currentUser,"From CurrentUser Component");
     return currentUser;
     }catch(error:any){
         return null
