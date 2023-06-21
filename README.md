@@ -33,7 +33,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+-> When I stuck on the message object creation part it start workling after I running th command "npx prisma generate". 
 
+-> For the image button work in the chat we have to install one more package which is "npm install next-cloudinary"
 
 ## package installed ( npm install ) 
 -> react-icons 
@@ -48,3 +50,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -> react-icons
 -> next-superjson-pluging
 -> date-fns
+-> npm install next-cloudinary
