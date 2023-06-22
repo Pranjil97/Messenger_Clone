@@ -86,8 +86,7 @@ const Header: React.FC<HeadProps> = ({
                     text-sky-500
                     cursor-pointer
                     hover:text-sky-600
-                    transition
-                    
+                    transition   
                 "
                 />
             </div>
