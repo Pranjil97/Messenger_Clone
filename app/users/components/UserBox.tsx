@@ -35,7 +35,9 @@ const UserBox: React.FC<UserBoxProps> = ({
 
     return (
         <>
-            <LoadingModal />
+            {isLoading && (
+                <LoadingModal />
+            )}
             <div
                 onClick={handleClick}
                 className="
