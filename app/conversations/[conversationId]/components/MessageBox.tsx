@@ -1,12 +1,13 @@
-"use client";
+'use client';
 
-import Avatar from "@/app/components/sidebar/Avatar";
-import { FullMessageType } from "@/app/types";
 import clsx from "clsx";
-import { format } from "date-fns";
-import { useSession } from "next-auth/react";
 import Image from "next/image";
 import { useState } from "react";
+import { format } from "date-fns";
+import { useSession } from "next-auth/react";
+import { FullMessageType } from "@/app/types";
+
+import Avatar from "@/app/components/sidebar/Avatar";
 import ImageModal from "./ImageModal";
 
 interface MessageBoxProps {
@@ -18,32 +19,24 @@ const MessageBox: React.FC<MessageBoxProps> = ({
     data,
     isLast
 }) => {
-
     const session = useSession();
-    const [imageMoadlOpen, setimageMoadlOpen] = useState(false);
+    const [imageModalOpen, setImageModalOpen] = useState(false);
 
-    const isOwn = session?.data?.user?.email === data?.sender?.email;
-    const seenList = (data.seen || []).filter((user) => user.email != data?.sender?.email)
+
+    const isOwn = session.data?.user?.email === data?.sender?.email
+    const seenList = (data.seen || [])
+        .filter((user) => user.email !== data?.sender?.email)
         .map((user) => user.name)
         .join(', ');
 
-    const container = clsx(
-        "flex gap-3 p-4",
-        isOwn && "justify-end"
-    )
-
-    const avatar = clsx(isOwn && "order-2")
-
-    const body = clsx(
-        "flex flex-col gap-2",
-        isOwn && "items-end"
-    )
-
+    const container = clsx('flex gap-3 p-4', isOwn && 'justify-end');
+    const avatar = clsx(isOwn && 'order-2');
+    const body = clsx('flex flex-col gap-2', isOwn && 'items-end');
     const message = clsx(
-        "text-sm w-fit overflow-hidden",
+        'text-sm w-fit overflow-hidden',
         isOwn ? 'bg-sky-500 text-white' : 'bg-gray-100',
         data.image ? 'rounded-md p-0' : 'rounded-full py-2 px-3'
-    )
+    );
 
     return (
         <div className={container}>
@@ -51,8 +44,8 @@ const MessageBox: React.FC<MessageBoxProps> = ({
                 <Avatar user={data.sender} />
             </div>
             <div className={body}>
-                <div className="flex items-center gap-1 ">
-                    <div className="text-sm text-gray-500 ">
+                <div className="flex items-center gap-1">
+                    <div className="text-sm text-gray-500">
                         {data.sender.name}
                     </div>
                     <div className="text-xs text-gray-400">
@@ -60,25 +53,21 @@ const MessageBox: React.FC<MessageBoxProps> = ({
                     </div>
                 </div>
                 <div className={message}>
-                    <ImageModal
-                        src={data.image}
-                        isOpen={imageMoadlOpen}
-                        onClick={() => setimageMoadlOpen(false)}
-                    />
+                    <ImageModal src={data.image} isOpen={imageModalOpen} onClose={() => setImageModalOpen(false)} />
                     {data.image ? (
                         <Image
-                            onClick={() => setimageMoadlOpen(true)}
-                            alt="image"
+                            alt="Image"
                             height="288"
                             width="288"
+                            onClick={() => setImageModalOpen(true)}
                             src={data.image}
                             className="
-                                object-cover
-                                cursor-pointer
-                                hover:scale-110
-                                transition
-                                translate
-                            "
+                object-cover 
+                cursor-pointer 
+                hover:scale-110 
+                transition 
+                translate
+              "
                         />
                     ) : (
                         <div>{data.body}</div>
@@ -87,17 +76,17 @@ const MessageBox: React.FC<MessageBoxProps> = ({
                 {isLast && isOwn && seenList.length > 0 && (
                     <div
                         className="
-                            text-xs 
-                            font-light
-                            text-gray-500
-                        "
+            text-xs 
+            font-light 
+            text-gray-500
+            "
                     >
                         {`Seen by ${seenList}`}
                     </div>
                 )}
             </div>
         </div>
-    )
+    );
 }
 
 export default MessageBox;
