@@ -47,10 +47,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -> -D @types/bcrypt
 -> axios
 -> react-hot-toast
--> react-icons
 -> next-superjson-pluging
 -> date-fns
 -> next-cloudinary
 -> @headlessui/react
 -> react-select
 -> react-spinners
+-> pusher pusher-js
+-> lodash
+-> npm install -D @types/lodash
+
