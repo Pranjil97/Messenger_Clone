@@ -55,5 +55,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -> react-spinners
 -> pusher pusher-js
 -> lodash
--> npm install -D @types/lodash
+-> -D @types/lodash
+-> zustand
 
