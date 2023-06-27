@@ -8,10 +8,10 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// export const metadata = {
-//   title: 'Messenger Clone',
-//   description: 'Messenger Clone'
-// }
+export const metadata = {
+  title: 'Messenger Clone',
+  description: 'Messenger Clone'
+}
 
 export default function RootLayout({
   children,
