@@ -1,41 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Messenger Clone APP
 
 ## Getting Started
 
-First, run the development server:
+### APP Screenshots
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Login Page
+![login](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/a8606d57-917f-4f9f-af00-4b5d7b602820)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Signup Page
+![signupPage](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/9684e61a-fce7-4ff5-82ca-6e08344e6609)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Conversations
+![conversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/8b4b1df6-d6cb-49b2-b444-b67f5ed2129b)
+![conversation2](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/1890c45c-2b89-467a-bd88-5efd66307b4a)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Chat Details SideBar
+![chatdetailsbar](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/2422b7d3-b36b-4210-a2a7-ac47e805486f)
 
-## Learn More
+### Delete current conversation
+![deleteconversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/7f7192c8-2adb-4c78-aa05-574218e47af5)
 
-To learn more about Next.js, take a look at the following resources:
+### Profile Setting
+![profileSettingPage](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/116eb046-ed05-4d87-87f1-ca6a71878089)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Change DP
+![changeDp](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/bd2c4967-5270-4fb6-a04c-3897757d8fa7)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Mobile screenshots
 
-## Deploy on Vercel
+ ![mobileLogin](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/3fb8ee82-d6bd-408a-8ee2-6a8ec8dbbda4)
+ 
+![mobileRegister](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/4e77bf65-7883-403f-82b8-679876c44330)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![mobileconversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/8c9038a5-ef9e-4148-ac58-47919ee48e36)
 
--> When I stuck on the message object creation part it start workling after I running th command "npx prisma generate". 
+![mobileConversation2](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/7486e355-203a-45f0-af04-f1f8a0b5129d)
 
--> For the image button work in the chat we have to install one more package which is "npm install next-cloudinary"
 
 ## package installed ( npm install ) 
 -> react-icons 
