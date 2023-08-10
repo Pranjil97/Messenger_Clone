@@ -5,37 +5,36 @@
 ### APP Screenshots
 
 ### Login Page
-![login](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/a8606d57-917f-4f9f-af00-4b5d7b602820)
+![login](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/37e0e867-842d-4815-b0f6-1d599ecaada9)
 
 ### Signup Page
-![signupPage](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/9684e61a-fce7-4ff5-82ca-6e08344e6609)
+![signupPage](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/95043774-bf1f-4ad0-b498-6f808b0d0da6)
 
 ### Conversations
-![conversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/8b4b1df6-d6cb-49b2-b444-b67f5ed2129b)
-![conversation2](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/1890c45c-2b89-467a-bd88-5efd66307b4a)
+![conversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/e99fbd06-0826-4295-826f-d8323c1bf5f9)
+![conversation2](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/7e56f746-c65a-4ea1-9258-3f8f885447d6)
+
 
 ### Chat Details SideBar
-![chatdetailsbar](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/2422b7d3-b36b-4210-a2a7-ac47e805486f)
+![chatdetailsbar](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/a0db3eeb-f465-4a96-9ac1-301848157149)
 
 ### Delete current conversation
-![deleteconversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/7f7192c8-2adb-4c78-aa05-574218e47af5)
+![deleteconversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/82604d46-d0ce-4029-a2c5-04e3527eac60)
 
 ### Profile Setting
-![profileSettingPage](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/116eb046-ed05-4d87-87f1-ca6a71878089)
+![profileSettingPage](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/392fa5d6-839b-4411-8564-43dc520d0bb8)
 
 ### Change DP
-![changeDp](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/bd2c4967-5270-4fb6-a04c-3897757d8fa7)
+![changeDp](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/d5f74d34-c132-462b-b515-c8230030be90)
 
 ### Mobile screenshots
+![mobileLogin](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/5851c132-c563-48d9-9a54-84bcd95555d6)
+![mobileRegister](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/ac213e31-c51d-4f34-b7ee-ba8d8c916d9f)
+![mobileConversation2](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/72b801d1-28d9-4961-a92e-ddf78350d3f0)
+![mobileconversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/fd211d58-8d7d-4181-a471-60ac76d34014)
 
- ![mobileLogin](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/3fb8ee82-d6bd-408a-8ee2-6a8ec8dbbda4)
- 
-![mobileRegister](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/4e77bf65-7883-403f-82b8-679876c44330)
 
 
-![mobileconversation](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/8c9038a5-ef9e-4148-ac58-47919ee48e36)
-
-![mobileConversation2](https://github.com/Pranjil97/Messenger_Clone/assets/109173457/7486e355-203a-45f0-af04-f1f8a0b5129d)
 
 
 ## package installed ( npm install ) 
